@@ -20,7 +20,7 @@ const buttons = [
 
 function App() {
   if(!localStorage["todolist"]) {
-    localStorage.setItem(JSON.stringify([
+    localStorage.setItem("todolist", JSON.stringify([
       {
         key: 1,
         label: "Have fun",
